@@ -1,0 +1,56 @@
+names = ["Name1","Name2","Name3","Name4","Name5","Name6"]
+print(names)
+
+#few operations
+print(names[2:5])
+print(names[0])
+print(names[-1])
+
+#find max number from a list
+numbers = [1,20,3,4,5,8,7,9]
+max = 0
+for i in numbers:
+    if i>max:
+        max = i
+print(max)
+
+
+#list function
+numbers.append(35)
+print(numbers)
+
+numbers.insert(0, 22) #0 signifies, where you wish to insert the data
+print(numbers)
+
+numbers.remove(20)
+print(numbers)
+
+#to remove all content of the list
+numbers.clear()
+print(numbers)
+
+numbers = [1,20,3,4,5,8,7,9]
+#to remove the last item of the list
+numbers.pop()
+print(numbers)
+
+#to find index of the attribute
+print(numbers.index(20))
+
+numbers.sort()
+print(numbers)
+
+numbers.reverse()
+print(numbers)
+
+numberCopy = numbers.copy()
+print(numberCopy)
+
+
+#remove duplicates
+numbernNew = [3, 4, 3, 6, 9, 6, 8, 7]
+set1 = []
+for i in numbernNew:
+    if i not in set1:
+        set1.append(i)
+print(set1)

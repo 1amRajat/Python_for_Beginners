@@ -1,0 +1,12 @@
+client = {
+    "name": "Rajat Karmakar",
+    "email": "rajat.karmakar@gmail.com",
+    "age": "27",
+    "is_verified": True}
+
+print(client.get("name"))
+print(client)
+print(client["age"])
+print(client.get("birthday","30 Jan"))
+client["office"] = "cognizant"
+print(client)

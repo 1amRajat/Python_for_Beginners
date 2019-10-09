@@ -1,0 +1,14 @@
+input = 'Python for Beginners'
+print(input.lower())
+print(input.upper())
+
+
+#find replace operations in a string
+print(input.find('yth'))
+print(input.replace('Beginners', 'Absolute Beginners'))
+print(input.replace('beginners', 'Absolute Beginners')) #caseInsensitive
+
+
+#To check if a word contains in a string
+print('Python' in input)
+print('python' in input)

@@ -1,0 +1,25 @@
+#Add
+print(10 + 3)
+
+#Subtract
+print(10-3)
+
+#Multiply
+print(10*3)
+
+#Division
+print(10/3)
+print(10//3)
+print(10%3)
+
+#Power
+print(10 ** 3)
+
+#mathematical operation while assigning a value
+x = 10
+x += 3
+print(x)
+
+x = 10
+x -= 3
+print(x)

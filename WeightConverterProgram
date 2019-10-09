@@ -1,0 +1,15 @@
+#Enter your weight
+#it will ask whether its pound value or Kg
+#if pound entered, then output will be shown in KG
+#or the other way around
+
+weight = int(input('Weight: '))
+unit = input('(L)bs or (K)g :')
+
+if unit.upper() == 'L':
+    newWeight = weight * 0.45
+    print(f"You're {newWeight} Kilos")
+else:
+    newWeight = weight/0.45
+    print(f"You're {newWeight} pounds")
+

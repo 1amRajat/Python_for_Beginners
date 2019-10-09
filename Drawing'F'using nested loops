@@ -1,0 +1,8 @@
+input1 = [5,2,5,2,2]
+
+for i in (input1):
+    output = ""
+   # print(i)
+    for j in range(i):
+       output = output + "*"
+    print(output)

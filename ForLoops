@@ -1,0 +1,18 @@
+#for loop syntax
+for i in range(3, 10):
+    print(i)
+
+#application
+
+prices = [10, 20, 30]
+total = 0
+
+for i in prices:
+    total += i
+print(f"The total price is {total}")
+
+#nested loops
+
+for x in range(4):
+    for y in range(x):
+        print(f"{x},{y}")

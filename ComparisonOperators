@@ -1,0 +1,15 @@
+#if name is 3 characters long
+#     name must be atleast 3 chracters
+#otherwise if its more than 50 charaacters long
+#     name can be a maximum of 50 characters
+#otherwise
+#     name looks good!
+
+name = 'Rajat'
+
+if len(name)<4:
+    print('name must be atleast 3 chracters')
+elif len(name)>50:
+    print('name can be a maximum of 50 characters')
+else:
+    print('Name looks good!')

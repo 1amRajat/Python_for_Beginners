@@ -1,0 +1,17 @@
+import math
+x = 2.9
+
+#rounding of a number
+print(round(x))
+
+#finding absolute value
+print(abs(-2.9))
+
+#in order to perform mathematical operations, in Pyhton we import math module
+
+#using math module now we can perform numerous action
+#finding a ceil
+print(math.ceil(x))
+
+#finding floor
+print(math.floor(x))

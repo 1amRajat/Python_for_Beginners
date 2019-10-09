@@ -1,0 +1,4 @@
+weightPound = input('Enter your weight in pounds:')
+weightKilos = 0.45 * float(weightPound)
+
+print('Your weight in kilo is:' + str(weightKilos))

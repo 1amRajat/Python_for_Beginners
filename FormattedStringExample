@@ -1,0 +1,7 @@
+firstName = 'Rajat'
+lastName = 'Karmakar'
+#desired output = Rajat [Karmakar] is a coder
+
+out = firstName + "{" + lastName + "} is a coder"
+output = f'{firstName} [{lastName} is a coder]'
+print(output)

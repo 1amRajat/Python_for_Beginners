@@ -1,0 +1,11 @@
+number_Tup = (1, 2, 3)
+print(number_Tup.count(2))
+
+print(number_Tup.index(2))
+
+
+#unpacking
+x,y,z = number_Tup
+print(x)
+print(y)
+print(z)

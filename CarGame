@@ -1,0 +1,17 @@
+command = ""
+
+while True:
+    command = input("> ")
+    if command.lower() == 'start':
+        print("car has started")
+    elif command.lower() == 'stop':
+        print("the car has stopped")
+    elif command.lower() == 'help':
+        print("""Start
+              Stop
+              Help
+              Quit""")
+    elif command.lower() == 'quit':
+        break
+    else:
+        print("we cannot understand your syntax")

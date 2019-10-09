@@ -1,0 +1,22 @@
+#Statement
+# if its hot
+#  its a hot day
+#  drink water
+# if its cold
+#  its a cold day
+#  wear warm clothes
+#else
+#  its a lovely day
+
+if_hot = False
+if_cold = False
+
+if if_hot:
+    print("Its a hot day")
+    print("Drink Water")
+elif if_cold:
+    print("its a cold day")
+    print("Wear warm clothes")
+else:
+    print("Its a lovely day")
+

@@ -1,0 +1,14 @@
+#In this prgram you've to guess a secret number, which is currently set as 6. you've 3 attempts. if you dont guess within 3 attempts, you'll fail
+
+secret_number = 6
+guess_count = 0
+guess_limit = 3
+
+while guess_count < guess_limit:
+    guess_count = guess_count + 1
+    guess = int(input("Guess: "))
+    if guess == secret_number:
+        print("Congrats you have won!")
+        break
+else:
+    print("Sorry, you've failed!")
